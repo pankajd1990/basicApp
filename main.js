@@ -155,10 +155,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: 'basicApp', children: [
-            { path: 'screenTest', component: _test_screentest__WEBPACK_IMPORTED_MODULE_3__["ScreenTestComponent"] },
-        ]
-    },
+    { path: 'screenTest', component: _test_screentest__WEBPACK_IMPORTED_MODULE_3__["ScreenTestComponent"] },
     { path: '**', redirectTo: 'login' }
 ];
 var AppRoutingModule = /** @class */ (function () {
