@@ -41,7 +41,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n\r\n\r\n<div id=\"main\">\r\n\r\n    <!-- <div class=\"container\">\r\n            {{message$ | async }}\r\n            <div *ngIf=\"post | async as a\">\r\n                {{a.text}}\r\n            </div>\r\n            <input type=\"button\" value='Hindi' (click)=\"hindiMessage();\">\r\n            <input type=\"button\" value='Marathi' (click)=\"marathiMessage();\">\r\n            <input type=\"button\" value='EDIT Text' (click)=\"EditText();\">\r\n    </div>\r\n \r\n</div> -->\r\n\r\n<router-outlet ></router-outlet>\r\n\r\n\r\n</div>\r\n"
+module.exports = "\r\n\r\n\r\n<div id=\"main\">\r\n\r\n    <!-- <div class=\"container\">\r\n            {{message$ | async }}\r\n            <div *ngIf=\"post | async as a\">\r\n                {{a.text}}\r\n            </div>\r\n            <input type=\"button\" value='Hindi' (click)=\"hindiMessage();\">\r\n            <input type=\"button\" value='Marathi' (click)=\"marathiMessage();\">\r\n            <input type=\"button\" value='EDIT Text' (click)=\"EditText();\">\r\n    </div>\r\n \r\n</div> -->\r\nHi Pankaj\r\n\r\n<router-outlet ></router-outlet>\r\n\r\n\r\n</div>\r\n"
 
 /***/ }),
 
