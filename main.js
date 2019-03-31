@@ -582,6 +582,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
+    { path: 'market-repay', component: _market_repay_market_repay__WEBPACK_IMPORTED_MODULE_12__["MarketRepayComponent"] },
     { path: 'login', component: _redux_login_login_component__WEBPACK_IMPORTED_MODULE_3__["LoginComponent"] },
     { path: 'dashboard', component: _redux_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_4__["DashboardComponent"] },
     { path: 'fullscreen', component: _fullscreen__WEBPACK_IMPORTED_MODULE_5__["FullscreenComponent"] },
@@ -591,12 +592,11 @@ var routes = [
     { path: 'chart', component: _charts_charts__WEBPACK_IMPORTED_MODULE_9__["ChartComponent"] },
     { path: 'scatter', component: _charts_scatter__WEBPACK_IMPORTED_MODULE_10__["ScatterChartComponent"] },
     { path: 'barchart1', component: _charts_barchart1__WEBPACK_IMPORTED_MODULE_11__["BarChart1Component"] },
-    { path: 'market-repay', component: _market_repay_market_repay__WEBPACK_IMPORTED_MODULE_12__["MarketRepayComponent"] },
     { path: 'treechart', component: _charts_treeChart__WEBPACK_IMPORTED_MODULE_13__["TreeChart1Component"] },
     { path: 'candlestick', component: _charts_candlestick__WEBPACK_IMPORTED_MODULE_14__["CandlestickComponent"] },
     { path: 'parallel', component: _charts_parallel__WEBPACK_IMPORTED_MODULE_15__["ParallelchartComponent"] },
     { path: 'marketrepayshailesh', component: _market_repay_marketrepay_shailesh__WEBPACK_IMPORTED_MODULE_16__["MarketRepayShaileshComponent"] },
-    { path: '**', redirectTo: 'login' }
+    { path: '**', redirectTo: 'market-repay' }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
